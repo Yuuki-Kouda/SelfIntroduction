@@ -23,6 +23,7 @@ header{
     border: double 10px #f3e2cb;
     top: 100;
     text-align: center;
+    display: block;
 }
 footer{
     background-color: #89c7de;
@@ -34,6 +35,15 @@ footer{
 }
 p{
     line-height: 30px;
+}
+ul{
+    padding-left: 0;
+	list-style: none;
+    display: inline-block;
+    line-height: 40px;
+}
+li{
+    text-align: left;
 }
 h3{
     top: 30px;
