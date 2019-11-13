@@ -4,8 +4,10 @@ body{
     margin: 0;
     padding: 0;
     width:100%;
+    min-width: 1000px;
     height:100%;
     color: #000000;
+    line-height: 65px;
 }
 header{
     background-color: #CEF9DC;
@@ -29,4 +31,13 @@ footer{
     bottom: 0;
     text-align: center;
     position: fixed;
+}
+p{
+    line-height: 30px;
+}
+h3{
+    top: 30px;
+}
+img{
+    width: 300px;
 }
