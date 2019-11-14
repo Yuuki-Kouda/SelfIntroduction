@@ -4,10 +4,8 @@ body{
     margin: 0;
     padding: 0;
     width:100%;
-    min-width: 1000px;
     height:100%;
     color: #000000;
-    line-height: 65px;
 }
 header{
     background-color: #CEF9DC;
@@ -15,39 +13,49 @@ header{
     top: 0;
     text-align: center;
     position: fixed;
+    z-index: 9999;
 }
 .main{
     background-color: #ffffff;
-    margin: 100px;
-    padding: 50px;
-    border: double 10px #f3e2cb;
-    top: 100;
+    width: 50em;
+    margin: 15em 20em;
+    padding: 10em;
+    border: double 1em #f3e2cb;
     text-align: center;
-    display: block;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
 }
 footer{
     background-color: #89c7de;
-    padding: 20px 0;
     width: 100%;
+    padding: 2em;
     bottom: 0;
     text-align: center;
     position: fixed;
+    z-index: 9999;
 }
 p{
-    line-height: 30px;
+    line-height: 2em;
+}
+.right_space_2em{
+    margin-right: 2em;
+}
+.left_space_1em{
+    margin-left: 1em;
 }
 ul{
     padding-left: 0;
 	list-style: none;
     display: inline-block;
-    line-height: 40px;
+    line-height: 3em;
 }
 li{
     text-align: left;
 }
 h3{
-    top: 30px;
+    top: 2em;
 }
 img{
-    width: 300px;
+    width: 20em;
 }
